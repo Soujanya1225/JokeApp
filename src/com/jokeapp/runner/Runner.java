@@ -8,7 +8,7 @@ public class Runner {
 
 	public static void main(String args[]) {
 
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/swastik/Downloads/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		int i = 1;
