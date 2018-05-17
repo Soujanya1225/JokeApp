@@ -8,7 +8,8 @@ public class Runner {
 
 	public static void main(String args[]) {
 
-		System.setProperty("webdriver.chrome.driver", "D:\\WI{PRO\\Selenium\\Setup\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/com/jokeapp/config/chromedriver.exe");
+
 		WebDriver driver = new ChromeDriver();
 		int i = 1;
 		driver.get("http://localhost:8082/joke");
